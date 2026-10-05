@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E9208327306149A10036187B /* AnimaisMarinhos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimaisMarinhos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9208327306149A10036187B /* iNaturalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNaturalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E9208329306149A10036187B /* AnimaisMarinhos */ = {
+		E9208329306149A10036187B /* iNaturalist */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AnimaisMarinhos;
+			path = iNaturalist;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		E920831E306149A10036187B = {
 			isa = PBXGroup;
 			children = (
-				E9208329306149A10036187B /* AnimaisMarinhos */,
+				E9208329306149A10036187B /* iNaturalist */,
 				E9208328306149A10036187B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		E9208328306149A10036187B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9208327306149A10036187B /* AnimaisMarinhos.app */,
+				E9208327306149A10036187B /* iNaturalist.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9208326306149A10036187B /* AnimaisMarinhos */ = {
+		E9208326306149A10036187B /* iNaturalist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9208332306149A30036187B /* Build configuration list for PBXNativeTarget "AnimaisMarinhos" */;
+			buildConfigurationList = E9208332306149A30036187B /* Build configuration list for PBXNativeTarget "iNaturalist" */;
 			buildPhases = (
 				E9208323306149A10036187B /* Sources */,
 				E9208324306149A10036187B /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E9208329306149A10036187B /* AnimaisMarinhos */,
+				E9208329306149A10036187B /* iNaturalist */,
 			);
-			name = AnimaisMarinhos;
+			name = iNaturalist;
 			packageProductDependencies = (
 			);
-			productName = AnimaisMarinhos;
-			productReference = E9208327306149A10036187B /* AnimaisMarinhos.app */;
+			productName = iNaturalist;
+			productReference = E9208327306149A10036187B /* iNaturalist.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9208322306149A10036187B /* Build configuration list for PBXProject "AnimaisMarinhos" */;
+			buildConfigurationList = E9208322306149A10036187B /* Build configuration list for PBXProject "iNaturalist" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9208326306149A10036187B /* AnimaisMarinhos */,
+				E9208326306149A10036187B /* iNaturalist */,
 			);
 		};
 /* End PBXProject section */
@@ -177,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -253,6 +253,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iNaturalist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cotuca.AnimaisMarinhos;
+				PRODUCT_BUNDLE_IDENTIFIER = cotuca.iNaturalist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -284,6 +285,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iNaturalist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cotuca.AnimaisMarinhos;
+				PRODUCT_BUNDLE_IDENTIFIER = cotuca.iNaturalist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9208322306149A10036187B /* Build configuration list for PBXProject "AnimaisMarinhos" */ = {
+		E9208322306149A10036187B /* Build configuration list for PBXProject "iNaturalist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9208330306149A30036187B /* Debug */,
@@ -318,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9208332306149A30036187B /* Build configuration list for PBXNativeTarget "AnimaisMarinhos" */ = {
+		E9208332306149A30036187B /* Build configuration list for PBXNativeTarget "iNaturalist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9208333306149A30036187B /* Debug */,
